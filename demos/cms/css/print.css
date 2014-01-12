@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#address, #header, #sidebar, #footer, .no-print { display: none; }
+
+#pageContainer, .section { width: 6.5in; padding: 0; margin: 0 auto; }
+.section { border: none;}
+
+#contentContainer { margin:0; padding:0;}
+
+#content, #content.narrowcolumn { width: inherit; float: none;}
+
+
+
+

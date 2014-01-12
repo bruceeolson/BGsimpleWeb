@@ -1,0 +1,77 @@
+
+
+/******************  VOH page  *******************/
+
+#vohPage ul { 
+	list-style:none; margin:0; padding:0;
+	li { margin: 0 0 10px; line-height:1.2em;}
+}
+
+#vohPage .widgetContent {
+	img { margin-top: -15px; margin-bottom: 5px; }
+	ul {  padding-left: 5%; padding-right: 5%; }
+}
+
+
+div.summary p { .font-size(22); }
+
+div.theCase {
+	div { width: 40%; float:left; margin-right: 3%; padding: 20px; margin-bottom: 20px; background-color: #eee;}
+	div:first-child { width: 35%;}
+	ol { margin:0;}
+}
+
+
+/******************  Youth page  *******************/
+
+#youthPage { padding: 20px 10px; }
+
+.snippet {
+	border:none;
+	position: relative;
+	float: left;
+	width: 250px;
+	padding: 0;
+	margin: 0 15px;
+	overflow: hidden;
+	}
+.snippetImage {
+	margin: 10px 0;
+	&:first-child { margin: 0 0 10px 0; }
+}
+	
+.youthPost {
+	margin-top: 20px;
+	&:first-child { margin-top:0; }
+	>h2 {
+		.h4;
+		padding: 10px 5px;
+		text-align:center;
+		.box-shadow();
+		.vertical();
+	}
+	p {margin: 0 0 10px 0;}
+	ul {
+		text-decoration: none; margin: 5px 0; padding: 0;
+		li {
+			text-decoration: none; margin: 5px 0; padding: 0;
+		}
+	}
+}
+
+div.category-post { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #aaa; }
+
+
+
+/******************  Blog page  *******************/
+ul.blogHeader { 
+	margin:10px 0; padding:0; list-style: none;
+	li { 
+		display:block; 
+		&:first-child {float: left; width: 55%; font-size: 1.4em; color: #333;}
+		&:last-child {float: right; width: 40%; text-align:right; color: #999;}
+	}
+}
+
+
+a.more-link { display:block; float:right; margin: 0 0 10px 0; text-align:right;}
